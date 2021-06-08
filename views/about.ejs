@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Error-Bot | about</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Error-Bot | About">
+    <meta property="og:description" content="About Error-Bot">
+        <link rel="icon" href="assets/ae.png">
+    <script type="text/javascript">
+      window.onload = setrun;
+      </script>
+    </head>
+    <body>
+
+      <%- include ("./partials/navbar.ejs") %>
+        
+        <div style="margin-left:18%;padding:1px 16px;text-align: center;background: linear-gradient(165deg, rgb(0, 81, 255) 0%, rgb(9, 21, 129) 85%);padding-top: 40px;">
+         <div class="box">
+          <div>
+            <h1 style="color: rgb(11, 89, 179);">Intro</h1>
+            <p>"Hello im Error-Bot a bot made by Error-Cezar aka a dumba-"</p>
+            <p>ok now shut up im doing the intro of the bot</p>
+            <p> uh yeah welcome to the website of <a href="https://discord.ly/error-bot">Error-Bot</a> </p>
+            <p>Error-Bot is a bot made by <a href="https://www.youtube.com/channel/UCWFBwi8xj23GzE5SW3rlD1Q">Error-Cezar</a> that one guy who overuse hyperlink in his intro of the bot</p>
+         </div>
+        </div>
+        <div style="padding-top: 35px;"> </div>
+        <div class="box">
+          <div>
+            <h1 style="color: rgb(11, 89, 179);">Commands</h1>
+            <p>Error-Bot have a lot of feature including music command, moderation command, nsfw thing and other stuff (too lazy to list them all)</p>
+            <div style="padding-top: 5px;"> </div>
+            <p>also the bot have a custom prefix woo</p>
+            <p>his default prefix is & / @Error-Bot</p>
+          </div>
+        </div>
+
+        <div style="padding-top: 40px;"> </div>
+        <div class="box">
+          <div>
+            <h1 style="color: rgb(11, 89, 179);">Stats</h1>
+            <p>current servers: ---</p>
+            <p>status: ---</p>
+            <p id="run">commands runned: ---</p>
+          </div>
+        </div>
+
+        </body>
+</html>
+
+<script>
+
+  let mobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) 
+  if (mobile) {
+     $('.box').css("width", "94%").css("padding", "10 10")
+  }
+  </script>
